@@ -15,7 +15,7 @@ public class Example1b {
 		for(int ch = firstPrintableCharacter; ch <= lastPrintableCharacter; ch++)
 			a[index++] = (byte)ch; //byte로 형변환
 		//줄바꿈 문자는 따로 저장
-		a[index++] = '\r'; //CR
+		//a[index++] = '\r'; //CR
 		a[index++] = '\n'; //LF
 		
 		out.write(a); //void write(byte[])-byte 배열인 a를 출력한다.
